@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+
+
+@font-face{
+    font-family: iropkeBatangM;
+    scr: url("./source/fonts/IropkeBatangM/IropkeBatangM.otf");
+}
+
+@font-face{ 
+    font-family: TTNorms;
+    scr: url("./source/fonts/TTNorms/TTNorms-Regular.otf");
+}
+
+body{
+    font-family: iropkeBatangM, TTNorms;
+}
+
 #bg_cover {
     background-color: black;
     position: fixed;
@@ -53,6 +69,7 @@
 }
 
 .menu_list {
+    font-family: TTNorms;
     color: white;
     display: inline;
     text-align: center;
@@ -101,7 +118,7 @@
     font-weight: 100;
     margin-top: 5vh;
     color: #E7BC9E;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: iropkeBatangM;
     opacity: 85%;
 }
 
@@ -168,10 +185,6 @@
 
 .moti_use .under_line {
     margin-top: 20px;
-}
-
-.moti_mockup_wrap {
-
 }
 
 .manual_moti {
