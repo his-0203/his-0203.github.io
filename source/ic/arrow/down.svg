@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ic/arrow/down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/arrow/down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <g id="Group" transform="translate(12.000000, 12.500000) rotate(-90.000000) translate(-12.000000, -12.500000) translate(6.500000, 4.500000)">
+                <path d="M8,0 L1.41421356,6.58578644 C0.633164979,7.36683502 0.633164979,8.63316498 1.41421356,9.41421356 L8,16 L8,16" id="Path-3" stroke="#F1DBCD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" fill="#F1DBCD" cx="9" cy="8" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
