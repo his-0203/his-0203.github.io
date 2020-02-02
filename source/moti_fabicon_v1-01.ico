@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Rectangle_1_);}
+	.st1{fill:#E7BC9E;}
+</style>
+<g id="moti_fabicon">
+	
+		<linearGradient id="Rectangle_1_" gradientUnits="userSpaceOnUse" x1="-306.5625" y1="454.6849" x2="-306.5625" y2="453.7023" gradientTransform="matrix(-16 0 0 16 -4897 -7259.2363)">
+		<stop  offset="0" style="stop-color:#1A1616"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<rect id="Rectangle" y="0" class="st0" width="16" height="16"/>
+	<polygon id="Path-Copy" class="st1" points="4.1,13 4.1,4.9 8,10.1 11.9,4.9 11.9,13 13,13 13,3 12.1,3 8,8.4 3.9,3 3,3 3,13 	"/>
+</g>
+</svg>
