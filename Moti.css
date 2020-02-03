@@ -43,8 +43,8 @@ body{
     width: 100vw;
     justify-content: space-between;
     padding: 0.5em 1.5em;
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 100%;
     z-index: 13211;
     position: fixed;
     scroll-behavior: smooth;
@@ -195,7 +195,7 @@ body{
 }
 
 .carousel-inner img {
-    width: 15%;
+    width: 12%;
 }
 
 .maunal_text {
