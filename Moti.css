@@ -50,7 +50,7 @@ body{
     width: 100vw;
     justify-content: space-between;
     padding: 0.5em 1.5em;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 13211;
     position: fixed;
     scroll-behavior: smooth;
@@ -318,6 +318,7 @@ footer a:hover {
 /* 모바일 해상도 css */
 
 @media screen and (max-width: 425px) {
+    
 
     .hbg_btn{
         display: flex;
@@ -335,6 +336,9 @@ footer a:hover {
 
     .nav_logo img {
         width: 35%;
+    }
+    .moti_banner{
+        padding-top: 2em;   
     }
 
     .moti_banner_logo img{
