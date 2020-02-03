@@ -51,7 +51,6 @@ body{
     justify-content: space-between;
     padding: 0.5em 1.5em;
     background-color: rgba(0, 0, 0, 0.8);
-    opacity: 100%;
     z-index: 13211;
     position: fixed;
     scroll-behavior: smooth;
@@ -135,9 +134,8 @@ body{
     font-size: 1.5em;
     font-weight: 100;
     margin-top: 5vh;
-    color: #E7BC9E;
+    color: rgba(231, 188, 158, 0.85);
     font-family: iropkeBatangM;
-    opacity: 85%;
 }
 
 .scroll_down {
@@ -163,8 +161,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .moti_introduce span {
@@ -245,8 +242,7 @@ body{
 }
 
 footer {
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
     height: 30vh;
     padding: 2em 0em;
     display: flex;
@@ -374,8 +370,7 @@ footer a:hover {
     
 
     footer {
-        background-color: black;
-        opacity: 80%;
+        background-color: rgba(0, 0, 0, 0.8);
         height: 60vh;
         padding: 1em 0em 2em 0em;
         display: flex;
