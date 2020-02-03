@@ -23,6 +23,12 @@
                 return false; //리턴펄스로 스크롤이 최상위로 갔다가 돌아오는 현상 없어짐
             });
         });
+
+        window.onload = function() {
+            setTimeout(function(){
+                scrollTo(0,0)
+            }, "slow")
+        };
     </script>
     <meta property="og:url"                content="https://his-0203.github.io/" />
     <meta property="og:type"               content="website" />
