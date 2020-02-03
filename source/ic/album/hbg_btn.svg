@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ic/album/normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/album/normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M15.2928932,4 L12,7.29289322 L8.70710678,4 L12,0.707106781 L15.2928932,4 Z" id="Path-2" stroke="#F1DBCD"></path>
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <polygon id="Path-2" fill="#F1DBCD" points="12 3 11 4 12 5 13 4"></polygon>
+            <path d="M7.29289322,12 L4,15.2928932 L0.707106781,12 L4,8.70710678 L7.29289322,12 Z" id="Path-2-Copy" stroke="#F1DBCD"></path>
+            <path d="M15.2928932,20 L12,23.2928932 L8.70710678,20 L12,16.7071068 L15.2928932,20 Z" id="Path-2-Copy-2" stroke="#F1DBCD"></path>
+            <path d="M23.2928932,12 L20,15.2928932 L16.7071068,12 L20,8.70710678 L23.2928932,12 Z" id="Path-2-Copy-3" stroke="#F1DBCD"></path>
+            <line x1="17" y1="12" x2="23" y2="12" id="Path-3" stroke="#F1DBCD"></line>
+            <polygon id="Path-5" fill="#F1DBCD" points="4 9 4 15 1 12"></polygon>
+            <g id="Group-5" transform="translate(6.000000, 6.000000)" stroke="#F1DBCD">
+                <line x1="0" y1="0" x2="12" y2="12" id="Path-4"></line>
+                <line x1="0" y1="12" x2="12" y2="0" id="Path-6"></line>
+            </g>
+        </g>
+    </g>
+</svg>
