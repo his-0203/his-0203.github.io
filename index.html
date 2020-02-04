@@ -41,7 +41,7 @@
     <div id="bg_cover"></div>
     <img src="source/adam-mescher-47Hw5d4AxKM-unsplash.jpg" alt="" id="bg_img">
     <a class="top_anchor"></a>
-    <header>
+    <header id="header">
         <div class="nav_wrap">
             <a href="#" class="nav_logo" id="top_anchor">
                 <img src="source/moti_logo.svg" alt="moti_logo">
@@ -52,11 +52,13 @@
                 <li class="menu_list"><a href="#" id="moti_use_anchor">How to use?</a></li>
                 <div class="download_btn">Download</div>
             </ul>
-            <a href="#" class="hbg_btn"><img src="source/ic/album/hbg_btn.svg" alt=""></a>
+            <a href="#" class="hbg_btn" onclick="openNav(); closeNav();"><img src="source/ic/album/hbg_btn.svg" alt=""></a>
+        </div>
+        <div id="hbg_list_wrap">
             <div class="hbg_list">
-                <span class="menu_list">Home</span>
-                <span class="menu_list">MOTI?</span>
-                <span class="menu_list">How to use?</span>
+                <span class="menu_list"><a href="#" id="top_anchor">Home</a></span>
+                <span class="menu_list"><a href="#" id="moti_introduce_anchor">MOTI?</a></span>
+                <span class="menu_list"><a href="#" id="moti_use_anchor">How to use?</a></span>
             </div>
         </div>
     </header>
@@ -155,5 +157,20 @@
             Copyright 2020. Ahobsu all rights reserved.
         </div>
 </footer>
+<script>
+    function openNav() {
+        var topValue = $( "#hbg_list_wrap" ).css( "top" );
+        if (topValue = '-10em'){
+            $( "#hbg_list_wrap" ).css( "top", "4.5em" );
+        }
+    }
+
+    function closeNav() {
+        var topValue = $( "#hbg_list_wrap" ).css( "top" );
+        if (topValue = '4.5em'){
+            
+        }
+    }
+</script>
 </body>
 </html>
