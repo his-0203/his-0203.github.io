@@ -37,7 +37,7 @@ body{
     height: 100vh;
 }
 
-.hbg_btn{
+#hbg_btn{
     display: none;
 }
 
@@ -91,6 +91,7 @@ body{
 .menu_list a:hover {
     color: #E7BC9E;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .download_btn {
@@ -329,7 +330,7 @@ footer a:hover {
         display: flex!important;
     }
 
-    .hbg_btn{
+    #hbg_btn{
         display: flex;
         justify-content: flex-end;
         padding: 0.5em;
@@ -337,7 +338,7 @@ footer a:hover {
         transition: all ease 1s;
     }
 
-    .hbg_btn:active {
+    #hbg_btn:active {
         transform: rotate( -720deg );
     }
 
@@ -349,7 +350,7 @@ footer a:hover {
         position: fixed;
         top: -10em;
         z-index: 13210;
-        transition: 0.5s;
+        transition: all ease-out 0.3s;
     }
 
     .hbg_list{

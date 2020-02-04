@@ -52,7 +52,7 @@
                 <li class="menu_list"><a href="#" id="moti_use_anchor">How to use?</a></li>
                 <div class="download_btn">Download</div>
             </ul>
-            <a href="#" class="hbg_btn" onclick="openNav(); closeNav();"><img src="source/ic/album/hbg_btn.svg" alt=""></a>
+            <div href="#" id="hbg_btn" data-nav='open';"><img src="source/ic/album/hbg_btn.svg" alt=""></div>
         </div>
         <div id="hbg_list_wrap">
             <div class="hbg_list">
@@ -168,9 +168,29 @@
     function closeNav() {
         var topValue = $( "#hbg_list_wrap" ).css( "top" );
         if (topValue = '4.5em'){
-            
+            $( "#hbg_list_wrap" ).css( "top", "-10em" );
         }
     }
+
+    $('#hbg_btn').click(function(){
+        var navState = $(this).data('nav');
+
+        if (navState === 'open') {
+            openNav();
+            $(this).data('nav', 'close');
+        } else {
+            closeNav();
+            $(this).data('nav', 'open')
+        }
+    })
+
+    $('#top_anchor, #moti_introduce_anchor, #moti_use_anchor').click(function(){
+        var navState = $('#hbg_btn').data('nav');
+        if (navState === 'close') {
+            closeNav();
+            $('#hbg_btn').data('nav', 'open')
+        }
+    })
 </script>
 </body>
 </html>
