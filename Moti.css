@@ -137,8 +137,28 @@ body{
     font-size: 1.5em;
     font-weight: 400;
     margin-top: 5vh;
+    margin-bottom: 5vh;
     color: rgba(231, 188, 158, 0.9);
     font-family: 'TT Norms';
+}
+
+.store_badge {
+    display: flex;
+    margin-top: 4em;
+}
+
+.store_badge img{
+    width: auto;
+    height: 3em;
+}
+
+#apple_badge{
+    margin-right: 2em;
+}
+
+#google_badge{
+    filter: grayscale();
+    opacity: 0.3;
 }
 
 .scroll_down {
@@ -301,6 +321,19 @@ footer a:hover {
         font-size: 1.2em;
     }
 
+    .store_badge {
+        margin-top: 2em;
+    }
+
+    .store_badge img {
+        width: 8em;
+        height: 100%;
+    }
+
+    #apple_badge{
+        margin-right: 1em;
+    }
+
     .under_line {
         width: 70vw;
         border: 0.5px solid #E7BC9E;
@@ -379,6 +412,25 @@ footer a:hover {
 
     .moti_banner span {
         font-size: 1em;
+    }
+
+    .store_badge {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .store_badge img {
+        width: 8em;
+        height: auto;
+    }
+
+    #apple_badge{
+        margin: 0;
+    }
+
+    #google_badge{
+        margin-top: 1em;
     }
 
     .moti_introduce span {
