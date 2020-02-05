@@ -142,6 +142,10 @@ body{
     font-family: 'TT Norms';
 }
 
+.scroll_down span {
+    margin-bottom: 0;
+}
+
 .store_badge {
     display: flex;
     margin-top: 4em;
