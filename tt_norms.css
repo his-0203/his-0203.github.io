@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'TT Norms ExtraBold';
-    src: url('/resources/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot');
     src: local('TT Norms ExtraBold Italic'), local('TTNorms-ExtraBoldItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBoldItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBoldItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBoldItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
     font-variant-ligatures: none;
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Bold.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Bold.eot');
     src: local('TT Norms Bold'), local('TTNorms-Bold'),
-        url('/resources/fonts/TTNorms/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Bold.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Bold.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Bold.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-variant-ligatures: none;
@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Thin.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Thin.eot');
     src: local('TT Norms Thin'), local('TTNorms-Thin'),
-        url('/resources/fonts/TTNorms/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Thin.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Thin.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Thin.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-variant-ligatures: none;
@@ -38,11 +38,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Regular.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Regular.eot');
     src: local('TT Norms Regular'), local('TTNorms-Regular'),
-        url('/resources/fonts/TTNorms/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Regular.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Regular.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Regular.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-variant-ligatures: none;
@@ -50,11 +50,11 @@
 
 @font-face {
     font-family: 'TT Norms Thin';
-    src: url('/resources/fonts/TTNorms/TTNorms-ThinItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-ThinItalic.eot');
     src: local('TT Norms Thin Italic'), local('TTNorms-ThinItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-ThinItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-ThinItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-ThinItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
     font-variant-ligatures: none;
@@ -62,11 +62,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Italic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Italic.eot');
     src: local('TT Norms Italic'), local('TTNorms-Italic'),
-        url('/resources/fonts/TTNorms/TTNorms-Italic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Italic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Italic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Italic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-variant-ligatures: none;
@@ -74,11 +74,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Heavy.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Heavy.eot');
     src: local('TT Norms Heavy'), local('TTNorms-Heavy'),
-        url('/resources/fonts/TTNorms/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Heavy.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Heavy.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Heavy.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-variant-ligatures: none;
@@ -86,11 +86,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Light.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Light.eot');
     src: local('TT Norms Light'), local('TTNorms-Light'),
-        url('/resources/fonts/TTNorms/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Light.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Light.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Light.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-variant-ligatures: none;
@@ -98,11 +98,11 @@
 
 @font-face {
     font-family: 'TT Norms Black';
-    src: url('/resources/fonts/TTNorms/TTNorms-BlackItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-BlackItalic.eot');
     src: local('TT Norms Black Italic'), local('TTNorms-BlackItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-BlackItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-BlackItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-BlackItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-variant-ligatures: none;
@@ -110,11 +110,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-ExtraLight.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-ExtraLight.eot');
     src: local('TT Norms ExtraLight'), local('TTNorms-ExtraLight'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLight.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLight.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLight.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-variant-ligatures: none;
@@ -122,11 +122,11 @@
 
 @font-face {
     font-family: 'TT Norms Light';
-    src: url('/resources/fonts/TTNorms/TTNorms-LightItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-LightItalic.eot');
     src: local('TT Norms Light Italic'), local('TTNorms-LightItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-LightItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-LightItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-LightItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-variant-ligatures: none;
@@ -134,11 +134,11 @@
 
 @font-face {
     font-family: 'TT Norms ExtraLight';
-    src: url('/resources/fonts/TTNorms/TTNorms-ExtraLightItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-ExtraLightItalic.eot');
     src: local('TT Norms ExtraLight Italic'), local('TTNorms-ExtraLightItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLightItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraLightItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLightItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
     font-variant-ligatures: none;
@@ -146,11 +146,11 @@
 
 @font-face {
     font-family: 'TT Norms Bold';
-    src: url('/resources/fonts/TTNorms/TTNorms-BoldItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-BoldItalic.eot');
     src: local('TT Norms Bold Italic'), local('TTNorms-BoldItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-BoldItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-BoldItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-BoldItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-variant-ligatures: none;
@@ -158,11 +158,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Medium.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Medium.eot');
     src: local('TT Norms Medium'), local('TTNorms-Medium'),
-        url('/resources/fonts/TTNorms/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Medium.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Medium.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Medium.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-variant-ligatures: none;
@@ -170,11 +170,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-Black.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-Black.eot');
     src: local('TT Norms Black'), local('TTNorms-Black'),
-        url('/resources/fonts/TTNorms/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-Black.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-Black.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-Black.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-variant-ligatures: none;
@@ -182,11 +182,11 @@
 
 @font-face {
     font-family: 'TT Norms Medium';
-    src: url('/resources/fonts/TTNorms/TTNorms-MediumItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-MediumItalic.eot');
     src: local('TT Norms Medium Italic'), local('TTNorms-MediumItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-MediumItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-MediumItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-MediumItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-variant-ligatures: none;
@@ -194,11 +194,11 @@
 
 @font-face {
     font-family: 'TT Norms Heavy';
-    src: url('/resources/fonts/TTNorms/TTNorms-HeavyItalic.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-HeavyItalic.eot');
     src: local('TT Norms Heavy Italic'), local('TTNorms-HeavyItalic'),
-        url('/resources/fonts/TTNorms/TTNorms-HeavyItalic.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-HeavyItalic.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-HeavyItalic.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-HeavyItalic.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-HeavyItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-variant-ligatures: none;
@@ -206,11 +206,11 @@
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('/resources/fonts/TTNorms/TTNorms-ExtraBold.eot');
+    src: url('/sources/fonts/TTNorms/TTNorms-ExtraBold.eot');
     src: local('TT Norms ExtraBold'), local('TTNorms-ExtraBold'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBold.woff') format('woff'),
-        url('/resources/fonts/TTNorms/TTNorms-ExtraBold.ttf') format('truetype');
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBold.woff') format('woff'),
+        url('/sources/fonts/TTNorms/TTNorms-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-variant-ligatures: none;
