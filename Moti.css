@@ -9,17 +9,12 @@
 
 
 @font-face{
-    font-family: iropkeBatangM;
+    font-family: 'iropkeBatangM';
     scr: url("./source/fonts/IropkeBatangM/IropkeBatangM.otf");
 }
 
-@font-face{ 
-    font-family: TTNorms;
-    scr: url("./source/fonts/TTNorms/TTNorms-Regular.otf");
-}
-
 body{
-    font-family: iropkeBatangM TTNorms;
+    font-family: 'iropkeBatangM';
 }
 
 #bg_cover {
@@ -75,7 +70,7 @@ body{
 }
 
 .menu_list {
-    font-family: TTNorms;
+    font-family: 'TT Norms';
     color: white;
     display: inline;
     text-align: center;
@@ -95,6 +90,7 @@ body{
 }
 
 .download_btn {
+    font-family: 'TT Norms';
     cursor: pointer;
     font-size: 0.9em;
     font-weight: 600;
@@ -139,10 +135,10 @@ body{
 
 .moti_banner span {
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 5vh;
-    color: rgba(231, 188, 158, 0.85);
-    font-family: iropkeBatangM;
+    color: rgba(231, 188, 158, 0.9);
+    font-family: 'TT Norms';
 }
 
 .scroll_down {
@@ -154,9 +150,9 @@ body{
 }
 
 .scroll_down span {
-
+    font-family: 'TT Norms';
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
 }
 
@@ -172,7 +168,7 @@ body{
 }
 
 .moti_introduce span {
-    font-family: iropkeBatangM;
+    font-family: 'TT Norms';
     font-size: 3em;
     margin-top: 2em;
 }
@@ -183,13 +179,14 @@ body{
 }
 
 .moti_introduce div {
+    font-family: 'iropkeBatangM';
     font-size: 1.2em;
     line-height: 2em;
     margin: 1em 0;
 }
 
 .moti_introduce p {
-    font-family: iropkeBatangM;
+    font-family: 'TT Norms';
     font-size: 1.8em;
     line-height: 3em;
     margin: 1em 0 2em 0;
@@ -199,7 +196,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: iropkeBatangM;
+    font-family: 'TT Norms';
     font-size: 3em;
     margin-top: 2em;
     color: white;
@@ -220,13 +217,6 @@ body{
     width: 15%;
 }
 
-
-.maunal_text {
-    padding: 40px;
-    color: white;
-    font-size: 1.2em;
-}
-
 #moti_carousel {
     margin: 2em 0 3em 0;
 }
@@ -244,8 +234,9 @@ body{
 }
 
 .carousel_text {
+    font-family: 'iropkeBatangM';
     font-size: 1.4em;
-    font-weight: 300;
+    font-weight: 200;
     margin-bottom: 2em;
     color: white;
     text-align: center;
@@ -270,14 +261,17 @@ footer {
 }
 
 footer a {
+    font-family: 'TT Norms';
     margin: 0 1.6em;
     line-height: 0.8em;
     color: white;
+    font-variant-ligatures: no-common-ligatures;
 }
 
 footer a:hover {
     color: #E7BC9E;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .footer_link {
@@ -290,6 +284,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     margin-top: 3em;
+    font-family: 'TT Norms';
 }
 
 /* 태블릿 해상도 css */
