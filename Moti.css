@@ -11,7 +11,7 @@
 @font-face{
     font-family: 'iropkeBatangM';
     scr: url("source/fonts/IropkeBatangM/IropkeBatangM.otf") format('opnetype')
-         url('source/fonts/TTNorms/TTNorms-ExtraBoldItalic.woff') format('woff');
+         url('source/fonts/IropkeBatangM/IropkeBatangM.woff') format('woff');
 }
 
 body{
