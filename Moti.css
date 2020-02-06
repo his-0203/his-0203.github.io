@@ -10,7 +10,8 @@
 
 @font-face{
     font-family: 'iropkeBatangM';
-    scr: url("source/fonts/IropkeBatangM/IropkeBatangM.otf");
+    scr: url("source/fonts/IropkeBatangM/IropkeBatangM.otf") format('opnetype')
+         url('source/fonts/TTNorms/TTNorms-ExtraBoldItalic.woff') format('woff');
 }
 
 body{
