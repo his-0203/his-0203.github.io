@@ -1,0 +1,220 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'iropkeBatangM';
+    src: url('source/fonts/IropkeBatangM/IropkeBatangM.otf') format('opnetype');
+    src: url('source/fonts/IropkeBatangM/IropkeBatangM.woff') format('woff');
+}
+
+body{
+    font-family: 'iropkeBatangM';
+}
+
+#bg_cover {
+    background-color: rgba(0, 0, 0, 0.45);
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+#bg_img {
+    position: fixed;
+    z-index: -2;
+    width: 100vmax;
+    height: 100vh;
+}
+
+#all_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+.moti_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+}
+
+.moti_banner_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moti_banner_logo img {
+    width: 40%;
+}
+
+
+.moti_banner span {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 5vh;
+    color: rgba(231, 188, 158, 0.9);
+    font-family: 'TT Norms';
+}
+
+
+.quest_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.quest_wrap span {
+    font-family: 'iropkeBatangM';
+    font-size: 1.4em;
+    color: #E7BC9E;
+
+}
+
+#input_quest{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: 0;
+    border-bottom: #E7BC9E solid 1px;
+    outline-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'iropkeBatangM';
+    margin-top: 2em;
+}
+
+#input_quest:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+.btn_wrap{
+    width: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.btn_style{
+    width: 320px;
+    height: 2.4em;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    line-height: auto;
+    text-align: center;
+    color: white;
+}
+
+.btn_style:focus{
+    outline: 0;
+}
+
+#skip_btn{
+    border: rgb(180, 146, 121) solid 1px;
+    border-radius: 0.5em;
+    color: rgb(180, 146, 121);
+    font-family: 'TT Norms';
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+#skip_btn:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+#send_btn{
+    color: rgb(189, 136, 99);
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px rgba(252, 222, 227, 0.8);
+    border-radius: 0.5em;
+}
+
+#send_btn:hover {
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    background-color: #E7BC9E;
+    box-shadow: 0px 0px 8px 1px rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px){
+    .moti_banner_logo img{
+        width: 36%;
+    }
+
+    .moti_banner span{
+        margin-top: 3vh;
+    }
+
+    #input_quest{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .moti_banner span{
+        margin-top: 2vh;
+        font-size: 1em;
+    }
+
+    .quest_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+    .quest_wrap span {
+        font-family: 'iropkeBatangM';
+        font-size: 1.2em;
+        color: #E7BC9E;
+        padding: 0 1.2em;
+        word-break: keep-all;
+        text-align: center;
+        line-height: 1.6em;
+    }
+
+    #input_quest{
+        width: 80%;
+    }
+    
+    .btn_wrap{
+        flex-direction: column-reverse;
+    }
+
+    .btn_style{
+        width: 240px;
+        height: 2.4em;
+    }
+
+    #skip_btn{
+        margin: 0;
+        margin-top: 1em;
+    }
+
+}
