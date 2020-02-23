@@ -32,6 +32,10 @@
             }, "slow")
         };
 
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+
     </script>
     <meta property="og:url" content="https://his-0203.github.io/" />
     <meta property="og:type" content="website" />
@@ -58,30 +62,76 @@
             <input type="text" id="input_quest" placeholder="당신의 질문을 여기 적어주세요.">
             <div class="btn_wrap">
                 <button id="skip_btn" class="btn_style">Skip</button>
-                <button id="send_btn" class="btn_style">질문 보내기</button>
+                <button id="send_btn" class="btn_style btn btn-primary" data-toggle="modal"
+                    data-target="#staticBackdrop_empty">질문 보내기</button>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <span>소중한 질문 감사합니다.</span>
+                    <img src="source/spincard.gif" alt="spin_card">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal_button" id="home_btn">메인으로 이동</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop_empty" data-backdrop="static" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <span>질문을 입력해주세요.</span>
+                    <img src="source/icErrorUnknownError.png" alt="spin_card">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal_button" data-dismiss="modal">질문 입력하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
+        $('#input_quest').keyup(function () {
+            if (this.value.length > 0) {
+                $('#send_btn').attr('data-target', '#staticBackdrop');
+            } else {
+                $('#send_btn').attr('data-target', '#staticBackdrop_empty');
+            }
+        })
+
         $('#send_btn').click(function () {
             var inputQuest = $('#input_quest').val();
-            $.ajax({
-                url: "http://ec2-54-175-1-15.compute-1.amazonaws.com/api/v1/questions",
-                type: "post",
-                accept: "application/json",
-                contentType: "application/json; charset=utf-8",
-                data: JSON.stringify({ 'content': inputQuest }),
-                dataType: "json",
-                success: function (data) {
-                    console.log("성공", data)
-                    // success handle
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    console.log("실패")
-                    // fail handle
-                }
-            });
-            location.href="/Moti_home"
+            if ($('#send_btn').attr('data-target') === '#staticBackdrop') {
+                $.ajax({
+                    url: "http://ec2-54-175-1-15.compute-1.amazonaws.com/api/v1/questions",
+                    type: "post",
+                    accept: "application/json",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({ 'content': inputQuest }),
+                    dataType: "json",
+                    success: function (data) {
+                        console.log("성공", data)
+                        // success handle
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        // fail handle
+                    }
+                });
+            }
+        })
+
+        $('#home_btn').click(function () {
+            location.href = 'Moti_home.html'
+        })
+
+        $('#skip_btn').click(function () {
+            location.href = 'Moti_home.html'
         })
     </script>
 </body>
