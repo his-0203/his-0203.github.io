@@ -33,18 +33,18 @@
                 <img src="source/moti_logo.svg" alt="moti_logo">
             </a>
             <ul class="nav_menu">
-                <li class="menu_list"><a href="#" scrollId="top_anchor">HOME</a></li>
-                <li class="menu_list"><a href="#" scrollId="moti_introduce_anchor">MOTI?</a></li>
-                <li class="menu_list"><a href="#" scrollId="moti_use_anchor">How to use?</a></li>
+                <li class="menu_list"><a href="#" class="willbescroll" scrollId="top_anchor">HOME</a></li>
+                <li class="menu_list"><a href="#" class="willbescroll" scrollId="moti_introduce_anchor">MOTI?</a></li>
+                <li class="menu_list"><a href="#" class="willbescroll" scrollId="moti_use_anchor">How to use?</a></li>
                 <div class="download_btn">Download</div>
             </ul>
             <div href="#" id="hbg_btn" data-nav='open';"><img src="source/ic/album/hbg_btn.svg" alt=""></div>
         </div>
         <div id="hbg_list_wrap">
             <div class="hbg_list">
-                <span class="menu_list"><a href="#" scrollId="top_anchor">Home</a></span>
-                <span class="menu_list"><a href="#" scrollId="moti_introduce_anchor">MOTI?</a></span>
-                <span class="menu_list"><a href="#" scrollId="moti_use_anchor">How to use?</a></span>
+                <span class="menu_list"><a href="#" class="willbescroll" scrollId="top_anchor">Home</a></span>
+                <span class="menu_list"><a href="#" class="willbescroll" scrollId="moti_introduce_anchor">MOTI?</a></span>
+                <span class="menu_list"><a href="#" class="willbescroll" scrollId="moti_use_anchor">How to use?</a></span>
             </div>
         </div>
     </header>
@@ -60,7 +60,7 @@
         </div>
         <div class="scroll_down">
             <span>Click to Scroll Down</span>
-            <a href="#" scrollId="moti_introduce_anchor">
+            <a href="#" class="willbescroll" scrollId="moti_introduce_anchor">
                 <img src="source/ic/arrow/down.svg" alt="" width="96px" height="96px">
             </a>
         </div>
@@ -155,18 +155,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" async></script>
 
 <script async>
-
-document.onload = function() {
-    var bootstrap_min_script = document.createElement('script');
-    bootstrap_min_script.setAttribute('src', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js');
-    bootstrap_min_script.setAttribute('async', 'async');
-    document.body.appendChild(bootstrap_min_script);
-};
-
 function defer() {
     if (window.jQuery) {
         $(function(){
-            $("a").on("click", function(){
+            var bootstrap_min_script = document.createElement('script');
+            bootstrap_min_script.setAttribute('src', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js');
+            bootstrap_min_script.setAttribute('async', 'async');
+            document.body.appendChild(bootstrap_min_script);
+
+            $("a.willbescroll").on("click", function(){
                 var divName = $(this).attr("scrollId")
 
                 if (divName === undefined) return true;
@@ -220,12 +217,12 @@ function defer() {
         })
 
         $('.download_btn').click(function() {
-            window.location.href = "https://his-0203.github.io/Moti_home.html";
+            $('html, body').animate({
+                scrollTop: 0
+            }, "slow");
         })
-        console.log("Wait!");
     } else {
         setTimeout(function() { defer(); }, 50);
-        console.log("Wait!");
     }
 }
 
