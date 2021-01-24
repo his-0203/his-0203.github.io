@@ -76,7 +76,9 @@
         </div>
         <div class="scroll_down">
             <span>Scroll Down</span>
-            <img src="source/ic/arrow/down.svg" alt="">
+            <a href="#" id="moti_scroll_anchor">
+                <img src="source/ic/arrow/down.svg" alt="">
+            </a>
         </div>
     </div>
     
@@ -191,7 +193,7 @@
         }
     })
 
-    $('#top_anchor, #moti_introduce_anchor, #moti_use_anchor').click(function(){
+    $('#top_anchor, #moti_introduce_anchor, #moti_use_anchor, #moti_scroll_anchor').click(function(){
         var navState = $('#hbg_btn').data('nav');
         if (navState === 'close') {
             closeNav();
