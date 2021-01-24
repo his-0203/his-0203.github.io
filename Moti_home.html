@@ -4,34 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Moti.css">
-    <link rel="stylesheet" href="tt_norms.css" type='text/css'>
-    <link rel="icon" href="source/fabicon.ico">
+
     <title>MOTI - "Make Own True Identity"</title>
 
+    <link rel="icon" href="source/fabicon.ico">
+
+    <link rel="preload" href="tt_norms.css" type='text/css' as="style">
+    <link rel="preload" href="source/fonts/IropkeBatangM/IropkeBatangM.otf" as="font" />
+    <link rel="preload" href="source/fonts/IropkeBatangM/IropkeBatangM.woff" as="font" />
+
+    <link rel="stylesheet" href="Moti.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script>
-        $(function(){
-            $("a").on("click", function(){
-                var divName = $(this).attr("id"), 
-                    topPosition = $("."+ divName).offset().top;
-                $('html, body').animate({
-                    scrollTop: topPosition - 55
-                }, 700);
-                return false; //리턴펄스로 스크롤이 최상위로 갔다가 돌아오는 현상 없어짐
-            });
-        });
 
-        window.onload = function() {
-            setTimeout(function(){
-                scrollTo(0,0)
-            }, "slow")
-        };
-
-    </script>
     <meta property="og:url"                content="https://his-0203.github.io/" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="MOTI" />
@@ -75,9 +59,9 @@
             <img src="source/google-play-badge.svg" alt="" id="google_badge" onclick="alert('준비 중 입니다!');">
         </div>
         <div class="scroll_down">
-            <span>Scroll Down</span>
+            <span>Click to Scroll Down</span>
             <a href="#" id="moti_scroll_anchor">
-                <img src="source/ic/arrow/down.svg" alt="">
+                <img src="source/ic/arrow/down.svg" alt="" width="96px" height="96px">
             </a>
         </div>
     </div>
@@ -166,6 +150,28 @@
             Copyright 2020. Ahobsu all rights reserved.
         </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $("a").on("click", function(){
+            var divName = $(this).attr("id"), 
+                topPosition = $("."+ divName).offset().top;
+            $('html, body').animate({
+                scrollTop: topPosition - 55
+            }, 700);
+            return false; //리턴펄스로 스크롤이 최상위로 갔다가 돌아오는 현상 없어짐
+        });
+    });
+
+    window.onload = function() {
+        setTimeout(function(){
+            scrollTo(0,0)
+        }, "slow")
+    };
+
+</script>
 <script>
     function openNav() {
         var topValue = $( "#hbg_list_wrap" ).css( "top" );
