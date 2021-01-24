@@ -5,38 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Moti_intro.css">
-    <link rel="stylesheet" href="tt_norms.css" type='text/css'>
+    <link rel="stylesheet" href="Moti_intro.css" as="style">
+    
+    <link rel="preload" href="tt_norms.css" type='text/css' as="style">
+    <link rel="preload" href="source/fonts/IropkeBatangM/IropkeBatangM.otf" as="font" />
+    <link rel="preload" href="source/fonts/IropkeBatangM/IropkeBatangM.woff" as="font" />
+
     <link rel="icon" href="source/fabicon.ico">
     <title>MOTI - "Make Own True Identity"</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $("a").on("click", function () {
-                var divName = $(this).attr("id"),
-                    topPosition = $("." + divName).offset().top;
-                $('html, body').animate({
-                    scrollTop: topPosition - 55
-                }, 700);
-                return false; //리턴펄스로 스크롤이 최상위로 갔다가 돌아오는 현상 없어짐
-            });
-        });
 
-        window.onload = function () {
-            setTimeout(function () {
-                scrollTo(0, 0)
-            }, "slow")
-        };
-
-        $('#myModal').on('shown.bs.modal', function () {
-            $('#myInput').trigger('focus')
-        })
-
-    </script>
     <meta property="og:url" content="https://his-0203.github.io/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="MOTI" />
@@ -99,7 +78,38 @@
         </div>
     </div>
 
-    <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" async></script>
+
+<script async>
+function defer() {
+    if (window.jQuery) {
+        $(function () {
+            var bootstrap_min_script = document.createElement('script');
+            bootstrap_min_script.setAttribute('src', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js');
+            bootstrap_min_script.setAttribute('async', 'async');
+            document.body.appendChild(bootstrap_min_script);
+
+            $("a").on("click", function () {
+                var divName = $(this).attr("id"),
+                    topPosition = $("." + divName).offset().top;
+                $('html, body').animate({
+                    scrollTop: topPosition - 55
+                }, 700);
+                return false; //리턴펄스로 스크롤이 최상위로 갔다가 돌아오는 현상 없어짐
+            });
+        });
+
+        window.onload = function () {
+            setTimeout(function () {
+                scrollTo(0, 0)
+            }, "slow")
+        };
+
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+
         $('#input_quest').keyup(function () {
             if (this.value.length > 0) {
                 $('#send_btn').attr('data-target', '#staticBackdrop');
@@ -136,7 +146,13 @@
         $('#skip_btn').click(function () {
             location.href = 'Moti_home.html'
         })
-    </script>
+    } else {
+        setTimeout(function() { defer(); }, 50);
+    }
+}
+
+defer();
+</script>
 </body>
 
 </html>
