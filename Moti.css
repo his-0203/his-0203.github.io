@@ -159,11 +159,6 @@ body{
     margin-right: 2em;
 }
 
-#google_badge{
-    filter: grayscale();
-    opacity: 0.3;
-}
-
 .scroll_down {
     display: flex;
     flex-direction: column;
